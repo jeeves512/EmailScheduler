@@ -1,7 +1,7 @@
 import smtplib
 
 if __name__ == '__main__':
-    sender_email = 'jeevan.james.2017@mumail.ie'
+    sender_email = 'jeevan@email.com'
     password = [100,80,122,79,83,106,95,94]
     sender_password = ''.join(chr(i) for i in password)
     print(sender_password)
