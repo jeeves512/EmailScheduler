@@ -37,6 +37,8 @@ text = "This message was sent with Python's smtplib."
 message = 'Subject: {}\n\n{}'.format(subject, text)
 server = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
 server.starttls()
-server.login(sender_email, sender_password)
-server.sendmail(sender_email, sender_email, message)
+# server.login(sender_email, sender_password)
+# server.sendmail(sender_email, sender_email, message)
 server.quit()
+
+
